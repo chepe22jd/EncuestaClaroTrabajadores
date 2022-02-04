@@ -23,7 +23,7 @@ input_nombre.send_keys('500454')
 
 input_password = driver.find_element_by_xpath("/html/body/form/div/input[2]") 
 driver.implicitly_wait(10)
-input_password.send_keys('Mayo2021')
+input_password.send_keys(' ')
 
 driver.find_element_by_css_selector("#btnEntrar > div").click()
 
