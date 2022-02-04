@@ -19,7 +19,7 @@ input_pais.send_keys('Nicaragua')
 
 input_nombre = driver.find_element_by_xpath("/html/body/form/div/input[1]") 
 driver.implicitly_wait(10)
-input_nombre.send_keys('500454')
+input_nombre.send_keys(' ')
 
 input_password = driver.find_element_by_xpath("/html/body/form/div/input[2]") 
 driver.implicitly_wait(10)
